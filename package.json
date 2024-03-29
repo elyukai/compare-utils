@@ -1,0 +1,28 @@
+{
+  "name": "@elyukai/compare-utils",
+  "version": "0.1.0",
+  "description": "Utility types and functions for comparison and equality checks",
+  "main": "./lib/main.js",
+  "exports": {
+    "./equality": "./lib/equality.js",
+    "./ordering": "./lib/ordering.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukas Obermann",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "standard-version": "^9.5.0",
+    "typescript": "^5.4.3"
+  },
+  "repository": "github:elyukai/compare-utils",
+  "bugs": {
+    "url": "https://github.com/elyukai/compare-utils/issues"
+  },
+  "type": "module"
+}
