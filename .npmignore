@@ -1,0 +1,6 @@
+.github
+.prettierrc.yml
+.versionrc.json
+.vscode
+src
+tsconfig.json
