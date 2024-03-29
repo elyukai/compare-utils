@@ -1,6 +1,6 @@
 {
   "name": "@elyukai/compare-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utility types and functions for comparison and equality checks",
   "main": "./lib/main.js",
   "exports": {
